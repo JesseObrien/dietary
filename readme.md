@@ -8,3 +8,5 @@ Dietary recommendations as a service. Sign up, punch in your targets for nutrien
 
 * Interface with workout and fitness tracking apps.
 * Offer discounts with food ordering services like naturebox or something.
+* Include appliance-based weighting for picking out recipes/meals. Favor the items the user uses most.
+* Kitchen inventory/grocery list and recipe bias (mobile device barcode scanner integration).
