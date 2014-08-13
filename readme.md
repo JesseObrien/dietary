@@ -20,10 +20,13 @@ Dietary recommendations as a service. Sign up, punch in your targets for nutrien
 * Include appliance-based weighting for picking out recipes/meals. Favor the items the user uses most.
 * Kitchen inventory/grocery list and recipe bias (mobile device barcode scanner integration).
 * Dietary recommendations based on medical conditions (with option to follow or ignore and put in custom). ie - low-carb/low-GI for Diabetes, Gluten/Casein free for Celiac, etc (putting in this data is optional, but sets up presets for groups of options)
+* Automatic categorizing of recipes based on ingredients used (ie - "dairy free" if no dairy is used, "paleo" if no dairy, refined sugar, or grain is used, etc)
 
 ### Alpha Features
 
-// Add as a cohesive base
+* User profiles
+* Basic recipes/meals and associated framework/structure
+* Basic recipe/meal/food tagging
 
 ### Beta Features
 
