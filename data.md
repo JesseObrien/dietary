@@ -24,8 +24,12 @@ Answer some questions about what kinds of data we'll be collecting from users, g
 ### Scrape Data
 
 * Nutrition facts from somewhere
+  * http://nutritiondata.self.com/ has some of the most thorough data, particularly for base foods
+* Recipes from places
+  * There appears to be some kind of "recipe display" standard...thing...that we ought to be able to read from many/most sites (example - http://wellnessmama.com/8959/homemade-fruit-snacks/)
+  * Combine recipe data with base ingredient nutrition information to obtain numbers for a given recipe/meal
 
 ### Generated Data
 
 * Recommended nutrition intake based on age, weight, sex, etc
-
+* Include body fat % estimates/calculations based on information input (select formula based on what data is input)
