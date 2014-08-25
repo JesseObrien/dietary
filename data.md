@@ -19,7 +19,6 @@ Answer some questions about what kinds of data we'll be collecting from users, g
 * personal rss feed potentially?
   * Idea here would be give them their own rss for their updates for people who still love RSS
   * dietary.io/{random_hash}/feed or something
-* 
 
 ### Scrape Data
 
@@ -33,3 +32,9 @@ Answer some questions about what kinds of data we'll be collecting from users, g
 
 * Recommended nutrition intake based on age, weight, sex, etc
 * Include body fat % estimates/calculations based on information input (select formula based on what data is input)
+
+### Thoughts On Nutritional Data
+
+Nutritional data can get crazy, especially when we start talking about recipes/compound foods and whatnot. We'll want to think over how we go about storing this data to keep thrings from getting too chaotic (see also: the MyFitnessPal database).
+
+Will we want to store only one set of measurements (tablespoons/cups vs grams/mL) and perhaps find a way to convert to the other, or should we store both in two separate fields? We'll probably want to look at what the scraped data gives us for the most part (with enough data, we can probably fill in the blanks in scrapes that only get some of the data).
