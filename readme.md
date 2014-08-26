@@ -21,6 +21,11 @@ Dietary recommendations as a service. Sign up, punch in your targets for nutrien
 * Kitchen inventory/grocery list and recipe bias (mobile device barcode scanner integration).
 * Dietary recommendations based on medical conditions (with option to follow or ignore and put in custom). ie - low-carb/low-GI for Diabetes, Gluten/Casein free for Celiac, etc (putting in this data is optional, but sets up presets for groups of options)
 * Automatic categorizing of recipes based on ingredients used (ie - "dairy free" if no dairy is used, "paleo" if no dairy, refined sugar, or grain is used, etc)
+* Fill/augment data from recipe APIs, such as http://api.bigoven.com/
+* Allow for community-submitted recipes, voting systems allows for the most popular recipes to be added to the main database
+* Rating main recipe store (we need to delve into this further to figure out how we want to do ratings in a way that relevant)
+* "Cheat" option -- recommends "cheat" food/dessert based on community rating (still prioritizes set limitations?)
+* Interval (weekly/daily/bi-monthly) grocery list generation
 
 ### Alpha Features
 
