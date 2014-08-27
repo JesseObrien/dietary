@@ -6,27 +6,31 @@ import (
 )
 
 type Handlers struct {
-	Render *render.Render
+	Render       *render.Render
+	LayoutRender *render.Render
 }
 
 func BaseHandlers() *Handlers {
-	r := render.New(render.Options{
+	lr := render.New(render.Options{
 		Layout: "layout",
 	})
-	return &Handlers{Render: r}
+
+	r := render.New(render.Options{})
+
+	return &Handlers{LayoutRender: lr, Render: r}
 }
 
-func (h Handlers) index(w http.ResponseWriter, req *http.Request) {
-	h.Render.HTML(w, http.StatusOK, "index", nil)
+func (h Handlers) landing(w http.ResponseWriter, req *http.Request) {
+	h.Render.HTML(w, http.StatusOK, "landing", nil)
 }
 
 func (h Handlers) signup(w http.ResponseWriter, req *http.Request) {
-	h.Render.HTML(w, http.StatusOK, "accounts/signup", nil)
+	h.LayoutRender.HTML(w, http.StatusOK, "accounts/signup", nil)
 }
 
 /**
  * Account handlers
  */
 func (h Handlers) accountIndex(w http.ResponseWriter, req *http.Request) {
-	h.Render.HTML(w, http.StatusOK, "accounts/index", map[string]interface{}{"name": "Jesse O'Brien"})
+	h.LayoutRender.HTML(w, http.StatusOK, "accounts/index", map[string]interface{}{"name": "Jesse O'Brien"})
 }

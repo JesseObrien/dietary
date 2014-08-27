@@ -17,7 +17,7 @@ func main() {
 
 	mux := mux.NewRouter()
 
-	mux.HandleFunc("/", handlers.index)
+	mux.HandleFunc("/", handlers.landing)
 	mux.HandleFunc("/signup", handlers.signup)
 
 	accounts := mux.PathPrefix("/account").Subrouter()
