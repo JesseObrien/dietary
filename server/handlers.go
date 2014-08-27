@@ -9,7 +9,7 @@ type Handlers struct {
 	Render *render.Render
 }
 
-func SiteHandlers() *Handlers {
+func BaseHandlers() *Handlers {
 	r := render.New(render.Options{
 		Layout: "layout",
 	})

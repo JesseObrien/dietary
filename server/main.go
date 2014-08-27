@@ -13,7 +13,7 @@ var (
 
 func main() {
 
-	handlers := SiteHandlers()
+	handlers := BaseHandlers()
 
 	mux := mux.NewRouter()
 
@@ -24,6 +24,7 @@ func main() {
 	accounts.HandleFunc("/", handlers.accountIndex)
 
 	n := negroni.Classic()
+
 	n.UseHandler(mux)
 	n.Run(*httpAddr)
 }

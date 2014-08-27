@@ -1,2 +1,4 @@
 server/server
 server/gin-bin
+server/.sass-cache
+server/*.lock
