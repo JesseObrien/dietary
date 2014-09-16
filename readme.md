@@ -4,8 +4,9 @@
 
 * Clone this repo into your Go workspace (~/go/src/github.com/jesseobrien/dietary -- you can go get it)
 * `cd server && go get`
-* Run `go get github.com/codegangsta/gin` on your command line
-* Run `gin -a=8080`
+* Run `go get github.com/pilu/fresh` on your command line
+* Run `fresh -c fresh.conf`
+* Run `sass --watch sass:public/css`
 * Have a drink
 
 ### Premise
