@@ -27,7 +27,7 @@ Dietary recommendations as a service. Sign up, punch in your targets for nutrien
 * Rating main recipe store (we need to delve into this further to figure out how we want to do ratings in a way that relevant)
 * "Cheat" option -- recommends "cheat" food/dessert based on community rating (still prioritizes set limitations?)
 * Interval (weekly/daily/bi-monthly) grocery list generation
-* 
+* Recommendations based on cooking skill level (ie - "Beginner" - basic foods, commonly found in kitchen or easily obtained from grocery stores; to "Chef" - more complex/adventurous meals with more specialty ingredients)
 
 ### Tech/Libs
 
